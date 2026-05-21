@@ -1,0 +1,25 @@
+<mvc:View controllerName="demo.login.login.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="app"><pages>
+    <Page>
+        <content>
+            <core:Fragment fragmentName="demo.login.login.view.Login" type="XML" />
+            <HBox >
+            <Title>Login</Title>
+            <Label >
+                <Text text="Username" />
+                <Input id="username" placeholder="Enter username" />
+            </Label>
+            <Label >
+                <Text text="Password" />
+                <Input id="password" type="Password" placeholder="Enter password" />
+            </Label>
+            <Button text="Login" press="onLoginPress" />
+            </HBox>
+        </content>`
+    </Page>
+    </pages>
+    </App>
+</mvc:View>
